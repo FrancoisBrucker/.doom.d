@@ -8,3 +8,8 @@
 
 (package! emojify)
 (package! solaire-mode :disable t)
+
+
+(package! groovy-mode)
+
+(package! org-super-agenda)
