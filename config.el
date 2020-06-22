@@ -11,9 +11,13 @@
 
 )
 
+;; locale and mac stuff
+;;
 ;; alt is alt for mac
 (setq-default mac-option-modifier nil)
 
+;; french keyboard for avy keys
+(setq avy-keys '(?q ?s ?d ?f ?g ?h ?j ?k ?l))
 ;;
 ;;; UI
 
@@ -24,3 +28,4 @@
 
 ;; customization
 (setq evil-snipe-scope 'buffer)
+(setq avy-all-windows t)
