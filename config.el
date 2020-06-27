@@ -29,3 +29,13 @@
 ;; customization
 (setq evil-snipe-scope 'buffer)
 (setq avy-all-windows t)
+
+;; windows arrow move
+
+(map!
+   :map evil-window-map
+   :desc "go left"           "C-<left>" #'evil-window-left
+   :desc "go right"           "C-<right>" #'evil-window-right
+   :desc "go up"           "C-<up>" #'evil-window-up
+   :desc "go down"           "C-<down>" #'evil-window-down
+)
