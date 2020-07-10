@@ -13,3 +13,5 @@
 (package! groovy-mode)
 
 (package! org-super-agenda)
+
+(package! powershell)
