@@ -28,8 +28,13 @@
         mac-command-modifier 'super
 ))
 
-;; french keyboard for avy keys
+;; french
+;;
+
 (setq avy-keys '(?q ?s ?d ?f ?g ?h ?j ?k ?l))
+(ispell-change-dictionary "fr_FR")
+;;
+;;
 
 
 ;;  avy and snipe
